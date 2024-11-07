@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head">
+        <div class="header">
+            <h2>Rental.com</h2>
+            <div class="login">
+                <h3  class=" contents"  onclick="loadPage('home.html',this)">Login In</h3>
+            <h3 class=" contents"  onclick="loadPage('home.html',this)">Register</h3> 
+            </div>
+        </div>
+    </div>
+   <div class="nav container" id="nav-container">
+    <ul class="nav-content">
+        <li  value="home" name="choice" > <a class="contents home" href="#" target="" onclick="loadPage('home.html',this)" >Home</a></li>
+        <li  value="hotels" name="choice"><a class="contents hotels" href="#" target="" onclick="loadPage('hotels.html',this)">Hotels </a></li>
+        <li value="home-stay" name="choice"><a class="contents home-stay"  href="#" target="" onclick="loadPage('home-stay.html', this)">Home Stay </a></li>
+        <li class="contents"></li>
+        <li class="contents"></li>
+    </ul>
+    <h1>find your next stay at Rental.com</h1>
+    <p>enjoy your vacations</p>
+   </div>
+   <main id="content">
+    <!-- Dynamic content will load here -->
+     <h1>welcome to Rental.com</h1>
+</main>
+
+   <script src="app.js"></script>
+</body>
+</html>
